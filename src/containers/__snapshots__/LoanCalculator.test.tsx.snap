@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoanCalculator renders properly 1`] = `
+<div>
+  <ForwardRef
+    fluid={false}
+  >
+    <ForwardRef
+      className="col-md-6 mt-3"
+      inline={false}
+    >
+      <ForwardRef
+        controlId="loanAmount"
+      >
+        <div
+          className="col"
+        >
+          <ForwardRef
+            column={false}
+            srOnly={false}
+          >
+            Сумма кредита
+          </ForwardRef>
+          <ForwardRef
+            autoComplete="off"
+            maxLength={9}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+      </ForwardRef>
+      <ForwardRef
+        controlId="firstInstallment"
+      >
+        <div
+          className="col"
+        >
+          <ForwardRef
+            column={false}
+            srOnly={false}
+          >
+            Первый взнос 
+            0
+            %
+          </ForwardRef>
+          <ForwardRef
+            custom={true}
+            max={100}
+            min={0}
+            onChange={[Function]}
+            step={1}
+            type="range"
+            value="0"
+          />
+        </div>
+      </ForwardRef>
+      <ForwardRef
+        controlId="loanPereod"
+      >
+        <div
+          className="col-md-5"
+        >
+          <ForwardRef
+            column={false}
+            srOnly={false}
+          >
+            Срок кредита
+          </ForwardRef>
+          <ForwardRef
+            as="select"
+            onChange={[Function]}
+          >
+            <option>
+              1 год
+            </option>
+            <option>
+              2 года
+            </option>
+            <option>
+              3 года
+            </option>
+            <option>
+              4 года
+            </option>
+            <option>
+              5 лет
+            </option>
+            <option>
+              6 лет
+            </option>
+          </ForwardRef>
+        </div>
+      </ForwardRef>
+      <ForwardRef
+        controlId="mountyPayment"
+      >
+        <div
+          className="col justify-content-end d-flex align-items-center"
+        >
+          <div>
+            в месяц: 
+          </div>
+          <div
+            style={
+              Object {
+                "fontSize": "1.5em",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            0
+             EUR
+          </div>
+        </div>
+      </ForwardRef>
+    </ForwardRef>
+  </ForwardRef>
+</div>
+`;
