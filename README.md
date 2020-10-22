@@ -1,6 +1,4 @@
-Spend approximately one full business day for this task.
 
-На выполнение задания потратил один рабочий день.
 
 ## Available Scripts
 
